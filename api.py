@@ -1,4 +1,4 @@
-    from movies import *
+from movies import *
 
 
 # route to get all movies
