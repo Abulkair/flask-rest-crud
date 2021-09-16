@@ -5,6 +5,7 @@ import json
 db = SQLAlchemy(app)
 
 
+
 # the class Movie will inherit the db.Model of SQLAlchemy
 class Movie(db.Model):
     __tablename__ = 'movies'  # creating a table name
